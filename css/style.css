@@ -1,3 +1,17 @@
+@import url("http://fonts.googleapis.com/css?family=Droid Sans");
+p.info {
+  background-color: grey;
+}
+
+.guide .info, .guide .content nav.sidebar, .content .guide nav.sidebar {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 2px;
+}
+
+main.content .info, main.content nav.sidebar {
+  font-size: 0.8em;
+}
+
 body {
   background-color: #353536;
 }

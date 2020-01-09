@@ -1,6 +1,29 @@
 @import "variables.scss";
 @import "mixins.scss";
 
+@mixin google-font($family) {
+    @import url("http://fonts.googleapis.com/css?family=#{$family}");
+  }
+  
+  @include google-font("Droid Sans");
+
+  .content nav.sidebar {
+    @extend .info;
+  }
+
+  p.info {
+    background-color: grey;
+  }
+
+  .guide .info {
+    border: 1px solid rgba(#000, 0.8);
+    border-radius: 2px;
+  }
+
+  main.content .info {
+    font-size: 0.8em;
+  }
+
 
 
 body{
