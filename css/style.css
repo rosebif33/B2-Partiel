@@ -1,0 +1,14 @@
+body {
+  background-color: #353536;
+}
+
+header p {
+  text-align: right;
+  display: flex;
+}
+
+button {
+  background-image: linear-gradient(to right, #46C2FF, #BD11FA);
+}
+
+/*# sourceMappingURL=style.css.map */
